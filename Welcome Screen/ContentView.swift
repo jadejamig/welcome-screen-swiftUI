@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showWelcomeScreen = true
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: {self.showWelcomeScreen = true}) {
+            Text("Show welcome screen")
+        }
+        .sheet(isPresented: self.$showWelcomeScreen) {
+            WelcomeScreen(showWelcomeScreen: self.$showWelcomeScreen)
+        }
     }
 }
 

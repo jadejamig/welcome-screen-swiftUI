@@ -11,6 +11,8 @@
 		D2C6C6482662B38800244CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6C6472662B38800244CE1 /* ContentView.swift */; };
 		D2C6C64A2662B38D00244CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C6C6492662B38D00244CE1 /* Assets.xcassets */; };
 		D2C6C64D2662B38D00244CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C6C64C2662B38D00244CE1 /* Preview Assets.xcassets */; };
+		D2C6C6562662B3BA00244CE1 /* FeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6C6552662B3BA00244CE1 /* FeatureCell.swift */; };
+		D2C6C6582662B4CF00244CE1 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6C6572662B4CF00244CE1 /* WelcomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D2C6C6492662B38D00244CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C6C64C2662B38D00244CE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2C6C64E2662B38D00244CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C6C6552662B3BA00244CE1 /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
+		D2C6C6572662B4CF00244CE1 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				D2C6C6452662B38800244CE1 /* Welcome_ScreenApp.swift */,
+				D2C6C6542662B3A900244CE1 /* Views */,
 				D2C6C6472662B38800244CE1 /* ContentView.swift */,
+				D2C6C6572662B4CF00244CE1 /* WelcomeScreen.swift */,
 				D2C6C6492662B38D00244CE1 /* Assets.xcassets */,
 				D2C6C64E2662B38D00244CE1 /* Info.plist */,
 				D2C6C64B2662B38D00244CE1 /* Preview Content */,
@@ -67,6 +73,14 @@
 				D2C6C64C2662B38D00244CE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2C6C6542662B3A900244CE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6C6552662B3BA00244CE1 /* FeatureCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				D2C6C6482662B38800244CE1 /* ContentView.swift in Sources */,
 				D2C6C6462662B38800244CE1 /* Welcome_ScreenApp.swift in Sources */,
+				D2C6C6582662B4CF00244CE1 /* WelcomeScreen.swift in Sources */,
+				D2C6C6562662B3BA00244CE1 /* FeatureCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
